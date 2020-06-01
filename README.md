@@ -13,4 +13,8 @@ Las dependencias que se necesiten se descargarán mediante el comando "npm insta
 
 Cuando se quiera lanzar la página web se utilizará el comando "ng serve TuneIT", así se podría acceder usando localhost:4200 y observar la interfaz web
 Front-End Movil:
-Para añadir bibliotecas en móvil, se necesitará modificar el fichero "pubspec.yaml", dentro dell apartado dependencies,  añadiendo el nombre de la biblioteca a usar y la version de dicha biblioteca, para que nuestro proyecto reconozca las nuevas clases añadidas se tendrá que utilizar el comando "pub get", de esta manera, se actualizarán e instalarán.
+Para añadir bibliotecas en móvil, se necesitará modificar el fichero "pubspec.yaml", dentro dell apartado dependencies,  añadiendo el nombre de la biblioteca a usar y la version de dicha biblioteca, para que nuestro proyecto reconozca las nuevas clases añadidas se tendrá que utilizar el comando "pub get", de esta manera, se actualizarán e instalarán. Para añadir imágenes en Android Studio se utilizará assets: -assets/ En el fichero pubspec.yaml.
+
+- Back-End
+Back-End:
+Para la instalación de todas las dependencias, se usa el comando "pip" y para actualizar el fichero de dependencias, se utilizará el comando "pip freeze", indicando el fichero a actualizar. Para instalar librerías en debian se utilizará "apt install".
